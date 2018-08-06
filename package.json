@@ -1,0 +1,23 @@
+{
+  "name": "nodeecapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coeniebeyers/nodeEcApi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coeniebeyers/nodeEcApi/issues"
+  },
+  "homepage": "https://github.com/coeniebeyers/nodeEcApi#readme",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
