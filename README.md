@@ -6,3 +6,18 @@
 
 ## Installation
 To install: `npm i git+ssh://git@github.com/coeniebeyers/nodeEcApi.git`
+
+## Example usage
+
+Ensure that https://github.com/rynobey/ECC-API is running
+
+```nodejs
+const ecApi = require('nodeecapi')
+
+async function run(){
+  const baseMul = await ecApi.baseMul('0x1')
+  console.log({baseMul})
+}
+
+run()
+```
